@@ -1,0 +1,906 @@
+/*!
+Theme Name: Stock Crazycafe
+Theme URI: http://crazycafe.net/demos/wp/crazycafe
+Author: virza
+Author URI: http://vir-za.com/
+Description: vir-za WordPress theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: stock-crazycafe
+Tags: custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets,  translation-ready
+*/
+
+
+/* 
+CSS Indexing 
+
+=> Default CSS
+=> Header CSS
+=> Main Menu CSS
+=> Main Menu Drop-Down CSS
+=> Footer CSS
+=> Breadcrumb NavXT plagin / Custom header  
+
+=> When install One Click Damo installar
+
+=> Side Bar & Block all style for all StartNow 
+=> Style comment section  
+=> Hover Stat maent ..
+=> = PreLoder add css
+=> SlickNav Customijation
+=> 
+=> For responsive CSS3
+*/
+/* Default CSS */
+
+body {
+    font-size:15px;
+    line-height: 1.7;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* contacte form 7 */
+input[type="text"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], input[type="password"], textarea {
+    background: #f5f8f9;
+    border: 1px solid #e8eef1;
+    max-width: 100%;
+    padding: 15px;
+} 
+input[type="submit"], button[type="submit"] {
+    background: #278cc1;
+    border: none;
+    padding: 16px 28px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+button[type="submit"] i.fa {
+    font-size: 140%;
+    padding-left: 10px;
+}
+
+a:hover {
+    text-decoration:none;
+}
+/* Header CSS */
+.site-logo h2 {
+    margin: 0;
+    padding: 8px 0;
+    font-weight: 700;
+}
+.site-logo a{
+    color: #333;
+}
+.site-logo a img {
+    height: 55px;
+}
+.stock-contact-box {
+    color: #666;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 20px;
+    padding-left: 60px;
+    position: relative;
+}
+.stock-contact-box h3{
+    color: #333;
+    font-size: 20px;
+    margin:0;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.stock-cart i.fa, .stock-contact-box i.fa {
+    border: 1px solid #e0e9ee;
+    border-radius: 50%;
+    font-size: 18px;
+    height: 53px;
+    line-height: 46px;
+    position: absolute;
+    right: 0;
+    width: 53px;
+    text-align: center;
+    color: #278cc1;
+}
+.stock-contact-box i.fa{
+    left:0;
+    top:0;
+    line-height: 48px;
+}
+.stock-contact-box:hover i.fa::before {
+    color: #fff !important;
+}
+.stock-cart{
+    position: absolute;
+    right: 0 ;
+    top: 0;
+    border: 1px solid #e0e9ee;
+    font-size: 10px;
+    line-height:46px;
+    text-align: center;
+    width:53px;
+    border-radius: 50%;
+
+}
+.stock-cart span {
+    background: #278cc1 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size:14px;
+    height:30px;
+    line-height: 30px;
+    position:absolute;
+    right:-10px;
+    top:-10px;
+    width:30px;
+}
+.header-right-content{
+    position: relative;
+}
+.header-area{
+    padding: 25px 0;
+    /* padding-top: 30px */
+}
+/* Manin Menu  */
+.mainemnu {
+    border-top: 1px solid #d9e4e9;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.mainemnu a{color:#333;}
+.mainemnu ul{
+    list-style: outside none none;
+    margin: 0;
+    padding:0;
+}
+.mainemnu li{
+    display: inline-block;
+    position:relative;
+}
+.mainemnu li a {
+    display : block;
+    padding: 20px 30px 20px 0;
+    font-family: 'Noto Serif', serif;
+}
+/* Manu Drop Down */
+
+.mainemnu li ul {
+    position: absolute;
+    left: 0;
+    top: 105px;
+    z-index: 99;
+    width: 250px;
+    background: #278cc1;
+    padding: 10px 0;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mainemnu li ul li {
+    display: block;
+}
+
+.mainemnu li ul li a {
+    padding: 7px 18px;
+    font-size: 90%;
+    color: #fff;
+}
+
+.mainemnu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 65px;
+}
+
+.mainemnu li ul li:hover a {
+    background: #fef14a;
+    color: #333;
+}
+.mainemnu li:hover > a {
+    color: #278cc1;
+    /* font-weight: 700; */
+}
+.site-footer {
+    background-color:#2a2d2f;
+    color:#afb9c0;
+}
+.site-footer a, .site-footer .widget a{
+    color: #afb9c0;
+}
+/* Footer CSS */
+.site-footer h4.widget-title {
+    color: #fff;
+}
+.site-footer ul {
+    line-height: 2.1;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.stock-footer-bototm {
+    border-top: 1px solid #383f40;
+    padding: 20px 0;
+}
+.social-icons {
+    font-size: 16px;
+    text-align:right;
+}
+.social-icons a {
+    color: #fff;
+    display: inline-block;
+    padding-left: 20px;
+}
+.stock-footer-bototm ul {
+    line-height: 1.7;
+    text-align: center;
+}
+.stock-footer-bototm li {
+    display: inline-block;
+
+}
+.site-footer .widget {
+    margin: 0;
+    padding: 90px 0;
+}
+/* Breadcrumb NavXT plagin / Custom header  */
+.stock-breadcroumb-area {
+    font-size: 20px;
+    text-align: center;
+    background: #278cc1;
+    padding: 75px 0;
+    font-weight: 300;
+}
+.stock-breadcroumb-area, .stock-breadcroumb-area a {
+    color: #fff;
+}
+.stock-breadcroumb-area span[typeof="ListItem"] {
+    display: inline-block;
+    padding: 0 10px;
+}
+.stock-breadcroumb-area {
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+}
+.stock-breadcroumb-area::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #278cc1;
+    z-index: -1;
+    opacity: .8;
+}
+.section-enable-padding{
+    padding: 80px 0;
+}
+/* 
+==================================
+When install One Click Damo installar
+==================================
+  */
+.entry-header h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.entry-meta, .entry-footer {
+    font-size: 90%;
+}
+.entry-footer{
+    margin-top:20px;
+}
+.stock-readmore-btn {
+    background: #278cc1;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 5px;
+}
+ /* Side Bar & Block all style for all StartNow */
+
+article.page, article.post {
+    margin-bottom: 50px;
+}
+
+.entry-header h2 a {
+    color: #444;
+}
+
+.entry-footer span {
+    padding-right: 15px;
+}
+
+.stock-featured-content {
+    margin-bottom: 20px;
+}
+
+.widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 2;
+}
+
+.widget a {
+    color: #555;
+}
+
+.widget {
+    margin-bottom: 50px;
+}
+
+.widget ul ul {
+    padding-left: 15px;
+}
+
+.widget ul ul ul {
+    padding-left: 5px;
+}
+
+.widget table {
+    width: 100%;
+}
+
+.widget table th, .widget table td {
+    padding: 5px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.widget table {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.widget table th {
+    background: #d6dfe2;
+    text-align: center;
+}
+
+.widget table td {
+    text-align: center;
+}
+
+.widget.widget_rss li {
+    margin-bottom: 30px;
+}
+
+.widget.widget_rss .rssSummary {
+    font-size: 90%;
+    padding-top: 100px;
+}
+
+.widget.widget_rss .rssSummary {
+    font-size: 95%;
+    padding-top: 10px;
+}
+
+.widget.widget_rss cite {
+    padding-top: 10px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.widget.widget_rss cite {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 95%;
+}
+
+.widget.widget_rss .rsswidget {
+    font-size: 110%;
+}
+
+.widget.widget_rss .rss-date {
+    font-size: 80%;
+    color: #278cc1;
+}
+.search-results article.page .entry-summary {
+    display: none;
+}
+.entry-content table {
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.entry-content table th, .entry-content table td {
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+
+.entry-content table th {
+    background-color: #f9f9f9;
+}
+
+.entry-content table {
+    margin-bottom: 30px;
+}
+
+.entry-content dd {
+    margin-bottom: 15px;
+}
+
+.entry-content ul, .entry-content ol {
+    padding-left: 15px;
+}
+
+.entry-content address {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.nav-links {
+    overflow: hidden;
+}
+
+.nav-links a {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    color: #333;
+}
+.entry-content .page-links a {
+    background: #278cc1;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.entry-content .page-links {
+    margin: 30px 0;
+    text-align: center;
+}
+/* 
+Style comment section  
+*/
+.comments-area {
+    margin-top: 40px;
+}
+
+.comments-area table {
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.comments-area h2.comments-title {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.comments-area  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.comment-meta {
+    margin-bottom: 20px;
+}
+
+.comment-meta a {
+    color: #333;
+}
+
+.comment-author.vcard {
+    position: relative;
+    padding-left: 50px;
+}
+
+.comment-author.vcard img {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.comment-metadata {
+    margin-left: 50px;
+    font-size: 80%;
+}
+
+.comments-area table th, .comments-area table td {
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+
+.comments-area table th {
+    background-color: #278cc0;
+    color: #fff;
+}
+
+.comments-area dd {
+    margin-bottom: 15px;
+}
+
+.comments-area .comment-content ol, .comments-area .comment-content ul {
+    padding-left: 15px;
+}
+
+.comment-reply-link {
+    display: inline-block;
+    background: #278cc0;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.comment-list li.comment {
+    margin-bottom: 32px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 32px;
+}
+
+.comment-body ol.children {
+    margin-left: 85px;
+}
+.comment {
+    position: relative;
+}
+
+.comment-list li ol.children {
+    margin: 0;
+    list-style: none;
+    padding-left: 50px;
+    margin-top: 25px;
+}
+
+.comment-list li ol.children ol.children {
+    padding-left: 20px;
+}
+
+.comment-list li.comment:last-child {
+    border-bottom: 0px solid;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.comment-respond {
+    margin-top: 50px;
+}
+
+.comment-notes {
+    font-size: 91%;
+    margin-bottom: 40px;
+}
+
+.comment-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.comment-form input[type='submit'] {
+    width: auto;
+}
+/* Hover Stat maent .. */
+.site-logo:hover {
+    opacity: .8;
+    /* color: #278cc1; */
+}
+
+a.stock-contact-box:hover {
+    color: #666;
+    opacity: .8;
+}
+.stock-cart:hover i.fa, .stock-contact-box:hover i.fa {
+    background: #278cc1;
+    color: #fff;
+}
+
+.stock-slide-buttons a.bordered-btn:hover {
+    color: #fef14a;
+}
+
+a.service-more-btn:hover {
+    colro: #333;
+    color: #333;
+    font-weight: 700;
+}
+
+a.service-more-btn:hover i.fa {
+    padding-left: 7px;
+}
+
+.stock-service-content:hover i.fa {
+    padding-left: 10px;
+}
+
+.site-footer a:hover, .site-footer .widget a:hover {
+    color: #fff;
+}
+.social-icons a i.fa {
+    color: #278cc1;
+}
+
+.social-icons a:hover i.fa {
+    color: #fff;
+}
+input[type=submit]:hover, button[type=submit]:hover{
+    background-color:#333;
+}
+ /* Side Bar & Block all style for all EndNow */
+
+ div#page.stock-boxed-layout {
+    max-width: 1170px;
+    overflow: hidden;
+    margin: 15px auto;
+    box-shadow: 0 0 5px #ddd;
+    background-color: #fff;
+}
+
+/*
+======== PreLoder add css========
+ */
+
+.loader {
+    color: #ffffff;
+    /* font-size: 90px; */
+    text-indent: -9999em;
+    overflow: hidden;
+    /* width: 1em;
+    height: 1em; */
+    border-radius: 50%;
+    margin: 72px auto;
+    /* position: relative; */
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+    animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+  }
+  @-webkit-keyframes load6 {
+    0% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    5%,
+    95% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    10%,
+    59% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+    }
+    20% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+    }
+    38% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+    }
+    100% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+  }
+  @keyframes load6 {
+    0% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    5%,
+    95% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    10%,
+    59% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+    }
+    20% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+    }
+    38% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+    }
+    100% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+  }
+  @-webkit-keyframes round {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes round {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+.preloader-wrapper{
+    background-color:#278cc1;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+.loader{
+    font-size:50px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    height: 50px;
+    width: 50px;
+}
+.stock-slides-wrapper .preloader-wrapper{
+    position:absolute;
+}
+/* SlickNav Customijation  */
+div.slicknav_menu {
+    background: none;
+    text-align: center;
+}
+
+a.slicknav_btn {
+    float: none;
+    display: inline-block;
+}
+
+ul.slicknav_nav {
+    background-color: #333;
+    text-align: left;
+}
+/*
+===================
+For responsive CSS3 Start Now >--->
+===================
+*/
+/* Large/XXXL Layout 1280px */
+@media only screen and (min-width:1201px) and (max-width:99999px){
+    .stock-responsive-menu {
+        display: none;
+    }
+}
+/* Medium Layout 1280px */
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .stock-responsive-menu {
+        display: none;
+    }
+    .stock-slides .owl-nav button{
+        left:5px;
+    }
+    .stock-slides .owl-nav button.owl-next {
+        right: 5px;
+    }
+}
+/*  Tablet Layout: 768px */
+@media only screen and (min-width:768px) and (max-width:991px){
+    .site-logo {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .site-logo a img {
+        height: 100%;
+    }
+    .mainemnu {
+        display: none;
+    }
+    .header-right-content {
+        padding-bottom: 30px;
+    }
+    .stock-slides .owl-nav button{
+        left:5px;
+    }
+    .stock-slides .owl-nav button.owl-next {
+        right: 5px;
+    }
+    .list-box ul {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .site-footer .widget {
+        padding: 30px 0;
+    }
+    .social-icons{
+        text-align:center;
+    }
+}
+/* Mobile Layout 320px */
+@media only screen and (max-width:767px){
+    .site-logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .stock-cart {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
+    .stock-contact-box {
+        display: block;
+        margin-bottom: 25px;
+    }
+    .mainemnu {
+        display: none;
+    }
+    .stock-slide-item h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        line-height: 60px;
+    }
+    .stock-slide-item {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .vc_row .bordered-btn {
+        font-size: 20px;
+    }
+    .overlay .bordered-btn, .stock-stat-box { margin-bottom: 40px; }
+    .vc_row.bg-left-bottom, .vc_row.bg-right-bottom {
+        background: none !important;
+    }
+    .stock-contact-from input { width: 100%;}
+    .stock-contact-from button[type=submit], .stock-contact-from input[type=submit]  { margin-top: 20px;}
+    .site-footer .widget { padding: 50px 0 0;}
+    .site-footer-bottom { margin-top: 50px;}
+    .social-icons{ text-align:center; margin-top:20px;}
+    .social-icons a{ padding:0 10px;}
+    .stock-breadcroumb-area {
+        font-size: 16px;
+        padding: 40px 0;
+    }
+    .stock-breadcroumb-area h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .tile-gallery-block {
+        width: 100% !important; 
+    }
+    .big-text{
+        font-size: 16px;
+    }
+    .stock-cta-box.stock-cta-box-theme-2{
+        margin-bottom: 40px;
+    }
+    .project-list .col-md-4, .project-list .col-md-3{
+        width: 100%;
+        position: relative !important;
+        left: 0 !important;
+        top: 0 !important;
+    }
+    .project-list {
+        height: auto !important;
+        margin-top: 50px;
+    }
+    .comment-list li ol.children {
+        padding-left: 20px;
+    }
+    /* This CSS incloud by Tanvir Hasan */
+    .col-lg-4.text-md-center {
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+/* Wide Mobile Layout 480px */
+@media only screen and (min-width:480px) and (max-width:767px){} 
+
+/*
+===================
+<---End---> responsive CSS3 
+===================
+*/

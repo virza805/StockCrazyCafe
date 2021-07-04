@@ -1,0 +1,520 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stock Crazycafe\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-27 09:46+0000\n"
+"PO-Revision-Date: 2020-06-27 09:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: Bengali (Bangladesh)\n"
+"Language: bn_BD\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: inc/metabox-and-options.php:312
+msgid "#278cc1"
+msgstr ""
+
+#: inc/metabox-and-options.php:447
+msgid "#2a2d2f"
+msgstr ""
+
+#: inc/metabox-and-options.php:454
+msgid "#afb9c0"
+msgstr ""
+
+#: inc/metabox-and-options.php:318
+msgid "#fef14a"
+msgstr ""
+
+#: inc/metabox-and-options.php:461
+msgid "#ffffff"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:84
+msgid ", "
+msgstr ""
+
+#: functions.php:157
+msgid "Add footer widgets here."
+msgstr ""
+
+#: functions.php:145
+msgid "Add project sidebar widgets here."
+msgstr ""
+
+#: functions.php:133
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/metabox-and-options.php:178
+msgid "Big Title"
+msgstr ""
+
+#: inc/metabox-and-options.php:382
+msgid "Blog Settings"
+msgstr "খবর "
+
+#: inc/metabox-and-options.php:388
+msgid "Blog Title"
+msgstr ""
+
+#: inc/metabox-and-options.php:389
+msgid "Blogs"
+msgstr ""
+
+#: inc/metabox-and-options.php:349
+msgid "Body background color"
+msgstr ""
+
+#: inc/metabox-and-options.php:343
+msgid "Body background image"
+msgstr ""
+
+#: inc/metabox-and-options.php:373
+msgid "Body Background Position"
+msgstr ""
+
+#: inc/metabox-and-options.php:361
+msgid "Body Background Style"
+msgstr ""
+
+#: inc/metabox-and-options.php:231
+msgid "Body font"
+msgstr ""
+
+#: inc/metabox-and-options.php:244 inc/metabox-and-options.php:279
+msgid "Body font types"
+msgstr ""
+
+#: inc/metabox-and-options.php:492
+msgid "Body start scripts"
+msgstr ""
+
+#: inc/metabox-and-options.php:173 inc/metabox-and-options.php:210
+msgid "Box icon"
+msgstr ""
+
+#: inc/metabox-and-options.php:183
+msgid "Box Link"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:48
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: footer.php:46
+msgid "Copyright c 2020 FairDealiab - All Right Reserved"
+msgstr ""
+
+#: inc/metabox-and-options.php:468
+msgid "Copyright © 2020 vir-za.com - All Rights Reserved"
+msgstr ""
+
+#: inc/metabox-and-options.php:33
+msgid "Custom Title"
+msgstr ""
+
+#: inc/metabox-and-options.php:267
+msgid ""
+"Default font \"Noto Serif & 700\" .If you want to change heading font family,"
+" you can do... From Google"
+msgstr ""
+
+#: inc/metabox-and-options.php:232
+msgid ""
+"Default font \"Roboto & regular\". If you want to show different font family,"
+" you can change now . From Google"
+msgstr ""
+
+#: inc/metabox-and-options.php:395
+msgid "Display post by ?"
+msgstr ""
+
+#: inc/metabox-and-options.php:409
+msgid "Display post comment count ?"
+msgstr ""
+
+#: inc/metabox-and-options.php:402
+msgid "Display post date ?"
+msgstr ""
+
+#: inc/metabox-and-options.php:423
+msgid "Display posted in tags ?"
+msgstr ""
+
+#: inc/metabox-and-options.php:416
+msgid "Display posted ind categories ?"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:135 template-parts/content-page.php:36
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/metabox-and-options.php:337
+msgid "Enable boxed_layout"
+msgstr ""
+
+#: inc/metabox-and-options.php:430
+msgid "Enable next previous link on single post ?"
+msgstr ""
+
+#: inc/metabox-and-options.php:323
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/metabox-and-options.php:330 inc/metabox-and-options.php:331
+msgid "Enable Slid Preloader"
+msgstr ""
+
+#: inc/metabox-and-options.php:324
+msgid "Enable Theme Preloader"
+msgstr ""
+
+#: inc/metabox-and-options.php:26
+msgid "Enable Title"
+msgstr ""
+
+#: inc/metabox-and-options.php:446
+msgid "Footer background color"
+msgstr ""
+
+#: inc/metabox-and-options.php:467
+msgid "Footer CopyRight Text"
+msgstr ""
+
+#: inc/metabox-and-options.php:460
+msgid "Footer Heading color"
+msgstr ""
+
+#: inc/metabox-and-options.php:499
+msgid "Footer scripts"
+msgstr ""
+
+#: inc/metabox-and-options.php:439
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/metabox-and-options.php:453
+msgid "Footer text color"
+msgstr ""
+
+#: functions.php:155
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/metabox-and-options.php:485
+msgid "Head Scripts"
+msgstr ""
+
+#: inc/metabox-and-options.php:152
+msgid "Header Settings"
+msgstr ""
+
+#: inc/metabox-and-options.php:266
+msgid "Heading font"
+msgstr ""
+
+#. URI of the theme
+msgid "http://crazycafe.net/demos/wp/crazycafe"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://vir-za.com/"
+msgstr ""
+
+#: inc/metabox-and-options.php:160
+msgid "Iconic Boxes"
+msgstr ""
+
+#: inc/metabox-and-options.php:36
+msgid "If you want to custom title "
+msgstr ""
+
+#: inc/metabox-and-options.php:29
+msgid "If you want to enable title, select yes "
+msgstr ""
+
+#: inc/metabox-and-options.php:397
+msgid ""
+"If you want to show blog post author name on blog index page &  single blog, "
+"Select on"
+msgstr ""
+
+#: inc/metabox-and-options.php:418
+msgid ""
+"If you want to show blog post category on blog index page &  single blog, "
+"Select on"
+msgstr ""
+
+#: inc/metabox-and-options.php:411
+msgid ""
+"If you want to show blog post comment count on blog index page &  single "
+"blog, Select on"
+msgstr ""
+
+#: inc/metabox-and-options.php:404
+msgid ""
+"If you want to show blog post date on blog index page &  single blog, Select "
+"on"
+msgstr ""
+
+#: inc/metabox-and-options.php:448
+msgid ""
+"If you want to show different footer widget background color you can change "
+"now "
+msgstr ""
+
+#: inc/metabox-and-options.php:462
+msgid ""
+"If you want to show different footer widget heading color you can change now "
+msgstr ""
+
+#: inc/metabox-and-options.php:455
+msgid ""
+"If you want to show different footer widget text color you can change now "
+msgstr ""
+
+#: inc/metabox-and-options.php:432
+msgid ""
+"If you want to show next previous link on blog index page &  single blog, "
+"Select on"
+msgstr ""
+
+#: inc/metabox-and-options.php:425
+msgid "If you want to show tags on blog index page &  single blog, Select on"
+msgstr ""
+
+#: 404.php:31
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. If there are characters in your language that are not supported by this font, translate this to 'off'. Do not translate into your own language.
+#: inc/custom-style.php:27
+msgctxt "Karla font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported by this font, translate this to 'off'. Do not translate into your own language.
+#: inc/custom-style.php:32
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:118
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/metabox-and-options.php:215
+msgid "Link"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:97
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/theme-option.php:62
+msgid "Logo Upload"
+msgstr ""
+
+#: 404.php:41
+msgid "Most Used Categories"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/metabox-and-options.php:469
+msgid "Now, you can change copyright area..."
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/metabox-and-options.php:13
+msgid "Page Options"
+msgstr ""
+
+#: template-parts/content-page.php:23 template-parts/content.php:66
+msgid "Pages:"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:53
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:87
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: functions.php:54
+msgid "Primary"
+msgstr ""
+
+#: functions.php:143
+msgid "Project Sidebar"
+msgstr ""
+
+#: template-parts/content.php:60
+msgid "Read More"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/metabox-and-options.php:486
+msgid "Scripts goes before closing < / head >"
+msgstr ""
+
+#: inc/metabox-and-options.php:493
+msgid "Scripts goes just after < body > starts"
+msgstr ""
+
+#: inc/metabox-and-options.php:500
+msgid "Scripts goes just before < / body >"
+msgstr ""
+
+#: inc/metabox-and-options.php:478
+msgid "Scripts Settings"
+msgstr ""
+
+#. %s: search query.
+#: search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:131
+msgid "Sidebar"
+msgstr ""
+
+#: inc/theme-option.php:57
+msgid "Site logo On/Off"
+msgstr ""
+
+#: inc/theme-option.php:50
+msgid "Site Title from theme-option.php"
+msgstr ""
+
+#: inc/theme-option.php:45
+msgid "Site Title On/Off"
+msgstr ""
+
+#: inc/metabox-and-options.php:202
+msgid "Social Links"
+msgstr ""
+
+#: inc/metabox-and-options.php:194
+msgid "Social Settings"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. Name of the theme
+msgid "Stock Crazycafe"
+msgstr ""
+
+#: inc/metabox-and-options.php:305
+msgid "Styling Settings"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:100
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/metabox-and-options.php:311
+msgid "Theme Color"
+msgstr ""
+
+#: inc/metabox-and-options.php:317
+msgid "Theme Secondary Color"
+msgstr ""
+
+#: inc/metabox-and-options.php:168
+msgid "Title"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:60
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: inc/metabox-and-options.php:225
+msgid "Typography Settings"
+msgstr ""
+
+#. Description of the theme
+msgid "vir-za WordPress theme"
+msgstr ""
+
+#. Author of the theme
+msgid "virza"
+msgstr ""
+
+#: inc/metabox-and-options.php:390
+msgid "You can change blog/news title"
+msgstr ""
